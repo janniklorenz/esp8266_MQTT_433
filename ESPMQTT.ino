@@ -91,7 +91,7 @@ void setup() {
 
 	// Init MQTT client
 	client.setServer(mqtt_server, 1883);
-	client.setCallback(mqttRecevedCallback);
+	client.setCallback(mqttReceivedCallback);
 }
 
 void loop() {
